@@ -1,5 +1,5 @@
 Metodo selection
-![alt text](image.png)
+![alt text](assets/image.png)
 
 Resultado
-![alt text](image.png)
+
