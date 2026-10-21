@@ -3,7 +3,7 @@ public class Bubble {
     public int[] sort (int[] arreglo){
         int comparaciones=0;
         for(int i=0;i<arreglo.length;i++){
-            System.out.println("Pasada" +i);
+            System.out.println("Pasada: " +i);
             boolean combinaciones = false;
    
             for (int j=1; j<arreglo.length-i; j++){
@@ -26,7 +26,7 @@ public class Bubble {
                 
             }
         }
-        System.out.println("Comparaciones:" +comparaciones);
+        System.out.println("Comparaciones: " +comparaciones);
         return null;
 
     }
