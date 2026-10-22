@@ -1,9 +1,9 @@
 public class App {
-    public  void main(String[] args) throws Exception {
+    public static void main(String[] args) throws Exception {
         int[]original={5,3,4,1,2,6};
         int[]b=original.clone();
         int[]c= original;
-        int[]d= original;
+        int[]d=original.clone();
 
         // USAR EL METODO DEL ARCHIVO(CLASE)BUBBLE
         //INSTANCIAR el archivo BUBBLE
@@ -24,37 +24,30 @@ public class App {
 
         //Instanciar Insertion
         ///
-        System.out.println("\n\n--- Selection Sort ---");
+        System.out.println("\n\n--- Insertion Sort ---");
         Insertion insertion = new Insertion();
+        System.out.println("\n\n--- Insertion Sort ---");
         printArreglo(d, "Original");
         insertion.sort(d);
-        printArreglo(d,  "Ordenado Asc");
+        printArreglo(d, "Ordenado Asc");
 
-
-
-        
 
     }
     public static void printArreglo(int[] arr) {
         for(int i=0;i<arr.length;i++)
             System.out.println(arr[i]+" - ");
         System.out.println();
-    
-    
-    
-    
-    
 
 
 
         
     }    
-
-    public static void printArreglo(int[] arr, String title) {
+     public static void printArreglo(int[] arr, String title) {
         System.out.println(title);
         for (int i=0; i < arr.length; i++)
             System.out.println(arr[i] + " - ");
         System.out.println();
+
 
     }
     }

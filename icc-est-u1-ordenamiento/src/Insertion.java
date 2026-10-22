@@ -1,6 +1,6 @@
 public class Insertion {
 
-    public static void sort(int[] arreglo){
+    public void sort(int[] arreglo){
 
     for (int i=1; i<arreglo.length;i++){
         int key=arreglo[i];
